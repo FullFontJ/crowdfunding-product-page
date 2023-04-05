@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
+
+* {
+  margin: 0;
+}
+
+:root {
+  --cyan: hsl(176, 74%, 92%);
+  --primary-cyan: hsl(176, 50%, 47%);
+  --dark-cyan: hsl(176, 72%, 28%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 48%);
+  font-family: 'Commissioner', sans-serif;
+}
+
+body{
+    background: var(--cyan);
+}
+
+
+.font-h3{
+    font-size: 28px;
+    color: var(--black);
+}
+
+.font-count{
+    font-size: 30px;
+}
+
+.font-16{
+    font-size: 16px;
+    color: var(--dark-gray);
+}
+
+.font-precio{
+    font-size: 15px;
+    color: var(--dark-cyan);
+}
+
+.font-left{
+    font-size: 15px;
+    color: var(--dark-cyan);
+}
+
+.font-left span{
+    font-size: 29px;
+    color: var(--black);
+}
+
+.font-descripcion{
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+
+.font-19{
+    font-size: 19px;
+}
+
+.weigt400{
+    font-weight: 400;
+}
+
+.weigt500{
+    font-weight: 500;
+}
+
+.weigt700{
+    font-weight: 700;
+}
+

@@ -1,0 +1,19 @@
+.fondo-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.nav-menu{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 25px;
+}

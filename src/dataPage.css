@@ -1,0 +1,131 @@
+.Container {
+  position: relative;
+  top: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-600 {
+  width: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card-bookmark{
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.logo-mastercraft{
+  position: absolute;
+  top: -10px;
+  height: 60px;
+  width: 60px;
+}
+
+.opcion-bookmark{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.opcion-bookmark button{
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 16px 35px;
+    background-color: var(--primary-cyan);
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+.opcion-bookmark a{
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 60px;
+  gap: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: var(--dark-cyan);
+  background: var(--cyan);
+}
+
+.img-boolmark{
+  width: 50px;
+  height: 50px;
+}
+
+.group-count {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.title-info{
+  margin: 14px 0;
+  font-size: 24;
+  font-weight: 700;
+}
+
+.font-info{
+  line-height: 1.9;
+}
+
+.separador{
+  width: auto;
+  border: .5px solid var(--cyan);
+}
+
+.bar-total{
+  margin-top: 45px;
+  margin-bottom: 10px;
+  height: 15px;
+  width: 100%;
+  border-radius: 10px;
+  background: var(--cyan);
+}
+
+.bar-total div{
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  background: var(--primary-cyan);
+}
+
+.card-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+  border: 2px solid var(--cyan);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer button{
+  border: none;
+  border-radius: 25px;
+  background: var(--primary-cyan);
+  color: white;
+  padding: 16px 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
